@@ -38,4 +38,4 @@ wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/gelan-e.pt -P w
 echo "Setup complete. You can now run the YOLOv9 model using the detect.py script."
 
 # Example usage:
-# python detect.py --source path_to_your_input --weights path_to_yolov9_weights --conf 0.25 --name yolov9_results
+# python detect.py --source data/images/horses.jpg --weights weights/gelan-c.pt --conf 0.25 --name yolov9_results
