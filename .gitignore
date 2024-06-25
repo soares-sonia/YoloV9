@@ -163,3 +163,4 @@ cython_debug/
 
 yolov9_env/
 yolov9/weights/*
+yolov9/runs/*
