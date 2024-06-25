@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables (update these paths according to your setup)
-YOLOV9_DIR="/yolov9"
+YOLOV9_DIR="yolov9"
 DATASET_LOCATION="/bananas_dataset"
 WEIGHTS_PATH="/weights/yolov9-e.pt"
 CFG_PATH="models/detect/yolov9-e.yaml"
