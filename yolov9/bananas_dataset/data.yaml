@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Execivamente Madura', 'Madura', 'Muito Madura', 'Podre', 'Quase Madura', 'Verde']
+
+roboflow:
+  workspace: aoop-k2hkm
+  project: banana-ukhjt
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/aoop-k2hkm/banana-ukhjt/3
