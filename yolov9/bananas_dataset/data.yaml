@@ -1,7 +1,0 @@
-train: bananas_dataset/train/images
-val: bananas_dataset/valid/images
-test: bananas_dataset/test/images
-
-nc: 6
-names: ['Execivamente Madura', 'Madura', 'Muito Madura', 'Podre', 'Quase Madura', 'Verde']
-
