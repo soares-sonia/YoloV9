@@ -11,11 +11,15 @@ source yolov9_env/bin/activate
 # Step 3: Install dependencies
 echo "Installing dependencies..."
 pip install torch torchvision torchaudio
+pip install numpy
 pip install opencv-python
 pip install matplotlib
 pip install pandas
 pip install seaborn
 pip install roboflow
+pip install mss
+pip install ipython
+pip install psutil
 
 # Step 4: Clone YOLOv9 repository
 echo "Cloning YOLOv9 repository..."
