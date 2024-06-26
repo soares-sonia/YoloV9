@@ -2,7 +2,7 @@
 
 # Step 1: Create the virtual environment
 echo "Creating virtual environment..."
-python -m venv yolov9_env
+python3 -m venv yolov9_env
 
 # Step 2: Activate the virtual environment
 echo "Activating virtual environment..."
