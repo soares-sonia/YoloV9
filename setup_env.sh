@@ -8,7 +8,12 @@ python3 -m venv yolov9_env
 echo "Activating virtual environment..."
 source yolov9_env/bin/activate
 
-# Step 3: Install dependencies
+# Step 3: Install system dependencies
+sudo apt update
+sudo apt install libgtk2.0-dev pkg-config
+sudo apt install libgl1-mesa-glx
+
+# Step 4: Install dependencies
 echo "Installing dependencies..."
 pip install torch torchvision torchaudio
 pip install numpy
@@ -21,16 +26,16 @@ pip install mss
 pip install ipython
 pip install psutil
 
-# Step 4: Clone YOLOv9 repository
+# Step 5: Clone YOLOv9 repository
 echo "Cloning YOLOv9 repository..."
 git clone https://github.com/WongKinYiu/yolov9.git
 cd yolov9
 
-# Step 5: Install repository-specific dependencies
+# Step 6: Install repository-specific dependencies
 echo "Installing repository-specific dependencies..."
 pip install -r requirements.txt
 
-# Step 6: Download YOLOv9 weights
+# Step 7: Download YOLOv9 weights
 echo "Downloading YOLOv9 weights..."
 mkdir -p weights
 wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/best.pt -P weights
