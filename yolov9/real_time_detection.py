@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 from mss import mss
 from torchvision import transforms
-from yolov9.models.common import DetectMultiBackend
-from yolov9.utils.general import non_max_suppression
-from yolov9.utils.torch_utils import select_device
+from models.common import DetectMultiBackend
+from utils.general import non_max_suppression
+from utils.torch_utils import select_device
 import sys
 import time
 
