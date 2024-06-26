@@ -33,10 +33,10 @@ pip install -r requirements.txt
 # Step 6: Download YOLOv9 weights
 echo "Downloading YOLOv9 weights..."
 mkdir -p weights
-wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt -P weights
-wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-e.pt -P weights
-wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/gelan-c.pt -P weights
-wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/gelan-e.pt -P weights 
+wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/best.pt -P weights
+wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/best_striped.pt -P weights
+wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/last.pt -P weights
+wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/last_striped.pt -P weights 
 
 # Notify user that setup is complete
 echo "Setup complete. You can now run the YOLOv9 model using the detect.py script."
