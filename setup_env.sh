@@ -39,7 +39,7 @@ wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/last.pt -P we
 wget https://github.com/soares-sonia/YoloV9/releases/download/v0.1/last_striped.pt -P weights 
 
 # Notify user that setup is complete
-echo "Setup complete. You can now run the YOLOv9 model using the detect.py script."
+echo "Setup complete. You can now run the YOLOv9 model using the run_detection.sh script."
 
 # Example usage:
 # python detect.py --source data/images/horses.jpg --weights weights/gelan-c.pt --conf 0.25 --name yolov9_results
